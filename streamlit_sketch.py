@@ -68,7 +68,7 @@ def convert_to_sketch(image: Image.Image, effect_type: str) -> Image.Image:
 st.markdown("<h1>🎨 Image To Sketch </h1>", unsafe_allow_html=True)
 
 # Upload and conversion options
-uploaded_file = st.file_uploader("Upload your image", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("Upload your image", type=["jpg", "jpeg", "png","webp"])
 conversion_type = st.selectbox("Choose the effect", ["Pencil Sketch ", "Contour Sketch"])
 
 # Display the original and converted images side by side
