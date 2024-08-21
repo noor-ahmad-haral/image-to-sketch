@@ -1,6 +1,5 @@
 streamlit
 Pillow
 numpy
-opencv-python
-pip install opencv-python-headless
+opencv-python-headless
 
